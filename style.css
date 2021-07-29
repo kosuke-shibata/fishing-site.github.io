@@ -1,0 +1,305 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 860px;
+  margin: 0 auto;
+}
+
+#main-title {
+  font-family: 'Noto Serif JP', serif;
+  margin-bottom: 100px;
+}
+
+#main-title .title {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px;
+}
+
+#main-title .title:before {
+  content: '';
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background-image: url(fish.logo3のコピー.png);
+  background-size: contain;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#main-title img {
+  width: 100%;
+}
+
+#item-info {
+  font-family: 'Noto Serif JP', serif;
+}
+
+#item-info .item-info-img {
+  width: 100%;
+  margin: 0 0 50px;
+}
+
+#item-info .rule-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 300px;
+}
+
+#item-info .rule-colors .rule-color {
+  width: 33%;
+}
+
+#points-wrapper .point-title {
+  font-family: 'Noto Serif JP', serif;
+  text-align: center;
+  font-size: 48px;
+  padding-bottom: 80px;
+  color: #ff0000;
+}
+
+#points-wrapper .point {
+  font-family: 'Sawarabi Mincho', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+#points-wrapper .point .point-img {
+  width: 50%;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+#points-wrapper .point .point-img img {
+  width: 100%;
+}
+
+#points-wrapper .point .point-message {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+#points-wrapper .point .point-message h3 {
+  padding: 5px 0;
+}
+
+#points-wrapper .point .point-message p {
+  padding: 10px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#attension {
+  width: 80%;
+  margin: 0 auto 300px;
+}
+
+#attension .attension-title {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#attension .attension-message {
+  background: #fff;
+  padding: 30px;
+  border: 3px dotted #000;
+}
+
+#attension .attension-message p {
+  padding: 0 0 50px;
+}
+
+#attension .attension-message p:last-child {
+  padding: 0;
+}
+
+#attension .request {
+  margin: 30px 0;
+}
+
+#purchase-info .purchase-img {
+  float: left;
+  width: 40%;
+}
+
+#purchase-info .purchase-img img {
+  width: 100%;
+}
+
+#purchase-info .purchase-message {
+  margin: 0 20px 0 400px;
+}
+
+#purchase-info .purchase-message .free-shipping {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#purchase-info .purchase-message dl {
+  padding: 30px 0;
+  line-height: 50px;
+}
+
+#purchase-info .purchase-message dl span {
+  color: #f00;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+#purchase-info .purchase-message dl dt {
+  float: left;
+}
+
+#purchase-info .purchase-message dl dd {
+  margin-left: 100px;
+}
+
+#purchase-info .purchase-message .shipping {
+  margin: 0 60px;
+  padding: 20px 40px;
+  border: 2px solid #000;
+  background: #fff;
+  display: inline-block;
+}
+
+#purchase-info .purchase-message .shipping .free {
+  color: #f00;
+  float: left;
+  font-size: 22px;
+}
+
+#purchase-info .purchase-message .shipping .delivery {
+  margin-left: 120px;
+  font-size: 14px;
+}
+
+#purchase-info .purchase-message .shipping .delivery .detail {
+  padding-top: 50px;
+}
+
+#purchase-info .purchase-message .shipping .delivery .detail a {
+  text-decoration: none;
+  color: #6f99f3;
+}
+
+#purchase-info .purchase-message .shipping-plan {
+  color: #f00;
+  margin: 30px auto 20px 60px;
+}
+
+#purchase-info .purchase-message .select-item p {
+  margin-bottom: 20px;
+}
+
+#purchase-info .purchase-message .select-item table {
+  border-collapse: collapse;
+  background: #fff;
+  line-height: 40px;
+  width: 70%;
+  text-align: center;
+}
+
+#purchase-info .purchase-message .select-item table tr th {
+  border: 1px solid #000;
+}
+
+#purchase-info .purchase-message .select-item table tr td {
+  border: 1px solid #000;
+}
+
+#purchase-info .purchase-message .confirms .confirm {
+  margin-bottom: 20px;
+}
+
+#purchase-info .purchase-message .confirms .confirm span {
+  font-size: 14px;
+}
+
+#purchase-info .purchase-message .number {
+  font-size: 20px;
+}
+
+#purchase-info .purchase-message > input {
+  height: 50px;
+}
+
+#purchase-info .purchase-message .buttons .bg-red {
+  margin-bottom: 20px;
+}
+
+#purchase-info .purchase-message .buttons .bg-red button {
+  font-size: 16px;
+  width: 200px;
+  margin: 10px 0;
+  border: 0;
+  background: #ce0505;
+  line-height: 30px;
+}
+
+#purchase-info .purchase-message .buttons .bg-red button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#purchase-info .purchase-message .buttons .bg-white {
+  margin-bottom: 50px;
+}
+
+#purchase-info .purchase-message .buttons .bg-white button {
+  background: #fff;
+  width: 180px;
+  border: 1px solid #000;
+}
+
+#purchase-info .purchase-message .buttons .bg-white button span {
+  color: #ce0505;
+}
+
+#purchase-info .purchase-message .buttons .bg-white button a {
+  color: #000;
+  text-decoration: none;
+}
+
+#purchase-info .purchase-message .buttons p a {
+  text-decoration: none;
+  color: #5586ee;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#purchase-info .purchase-message .buttons .post, #purchase-info .purchase-message .buttons .share {
+  background: #fff;
+  padding: 0 10px;
+  display: block;
+  border: 1px solid #000;
+}
+
+#purchase-info .purchase-message .buttons .post a, #purchase-info .purchase-message .buttons .share a {
+  text-decoration: none;
+  color: #000;
+}
+
+#purchase-info .purchase-message .buttons .post {
+  margin-top: 50px;
+}
+
+#purchase-info .purchase-message .buttons .share {
+  margin: 10px 0 100px;
+}
+/*# sourceMappingURL=style.css.map */
